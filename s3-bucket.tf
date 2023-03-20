@@ -1,5 +1,6 @@
 module "s3_bucket" {
-  source = "bgaj203/terraform-aws-s3-bucket"
+  source  = "app.terraform.io/basitha-com/s3-bucket/aws"
+  version = "2.8.0"
 
   bucket = "my-s3-bucket"
   acl    = "private"
